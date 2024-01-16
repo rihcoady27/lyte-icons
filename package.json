@@ -1,0 +1,22 @@
+{
+  "name": "lyte-icons",
+  "version": "0.0.1",
+  "description": "Lyte Icons Library for Lyte usage",
+  "main": "index.js",
+  "homepage": "https://github.com/rihcoady27/lyte-icons#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rihcoady27/lyte-icons.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rihcoady27/lyte-icons/issues"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "lyte-icons"
+  ],
+  "author": "Rihco Aditya",
+  "license": "MIT"
+}
