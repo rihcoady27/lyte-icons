@@ -7,7 +7,7 @@ const config = [
     input: "index.js",
     output: {
       dir: "react",
-      format: "module",
+      format: "esm",
     },
     plugins: [commonjs(), typescript(), resolve()],
   },
