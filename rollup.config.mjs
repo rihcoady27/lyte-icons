@@ -1,16 +1,16 @@
-import typescript from "@rollup/plugin-typescript";
-import commonjs from "@rollup/plugin-commonjs";
-import resolve from "@rollup/plugin-node-resolve";
+import typescript from '@rollup/plugin-typescript'
+import commonjs from '@rollup/plugin-commonjs'
+import resolve from '@rollup/plugin-node-resolve'
 
 const config = [
   {
-    input: "index.js",
+    input: 'index.js',
     output: {
-      dir: "react",
-      format: "esm",
+      dir: 'dist',
+      format: 'esm',
     },
-    plugins: [commonjs(), typescript(), resolve()],
+    plugins: [commonjs(), resolve(), typescript()],
   },
-];
+]
 
-export default config;
+export default config

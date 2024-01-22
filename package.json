@@ -2,7 +2,7 @@
   "name": "lyte-icons",
   "version": "0.0.3",
   "description": "Lyte Icons Library for Lyte usage",
-  "main": "react/index.js",
+  "main": "dist/index.js",
   "type": "commonjs",
   "homepage": "https://github.com/rihcoady27/lyte-icons#readme",
   "repository": {
@@ -13,7 +13,7 @@
     "url": "https://github.com/rihcoady27/lyte-icons/issues"
   },
   "scripts": {
-    "clean": "rimraf General package src react",
+    "clean": "rimraf \"04 Icons\" package src react",
     "export": "figma-export use-config figma.config.js",
     "test": "node test.js",
     "bundle": "rollup --config rollup.config.mjs",
@@ -52,5 +52,12 @@
     "rollup": "^4.9.5",
     "tslib": "^2.6.2",
     "typescript": "^5.3.3"
+  },
+  "prettier": {
+    "tabWidth": 2,
+    "printWidth": 100,
+    "singleQuote": true,
+    "semi": false,
+    "endOfLine": "auto"
   }
 }
