@@ -13,7 +13,7 @@
     "url": "https://github.com/rihcoady27/lyte-icons/issues"
   },
   "scripts": {
-    "clean": "rimraf \"04 Icons\" package src react",
+    "clean": "rimraf \"04 Icons\" dist package src",
     "export": "figma-export use-config figma.config.js",
     "test": "node test.js",
     "bundle": "rollup --config rollup.config.mjs",

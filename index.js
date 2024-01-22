@@ -1,1 +1,1 @@
-export * from './src/04 Icons'
+export * from './src/react'
