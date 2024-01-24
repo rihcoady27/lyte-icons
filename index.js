@@ -1,1 +1,1 @@
-export * from "./src/General";
+export * from './src/react'
